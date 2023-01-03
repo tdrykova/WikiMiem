@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/account_group.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/account_multiple.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/axis_arrow.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/bank.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/book_multiple.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/book_open_variant.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/bookshelf.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/chart_bar.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/clipboard_check_multiple_outline.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/departments.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/digests.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/digital_miem.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/documintation.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/domain.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/file_document.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/file_tree.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/flask.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/group.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_burger.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_chat.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_digital.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_home.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_project.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_tree.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/instructions.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/labs.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/library.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/materials.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/network_outline.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/newspaper.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/office_building_outline.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/school.xml" value="0.11" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
