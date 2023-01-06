@@ -102,7 +102,7 @@ fun WelcomeScreen(navController: NavController) {
 
 @Preview(showBackground = true)
 @Composable
-fun prevWelcomeScreen() {
+fun PrevWelcomeScreen() {
     MenuTheme {
         WelcomeScreen(navController = rememberNavController())
     }

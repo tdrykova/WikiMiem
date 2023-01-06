@@ -4,10 +4,6 @@ import android.util.Log
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
-//import androidx.compose.material.R
-//import androidx.compose.runtime.R
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
@@ -31,11 +27,10 @@ import kotlinx.coroutines.launch
 import ru.menu.*
 import ru.menu.R
 import ru.menu.navigation.NavRoute
-import ru.menu.navigation.WikiNavHost
 import ru.menu.ui.theme.MenuTheme
 
 @Composable
-fun MainScreen(navController: NavController) {
+fun CustomScreen(navController: NavController, text: String) {
     val scaffoldState = rememberScaffoldState(rememberDrawerState(DrawerValue.Closed))
     val scope = rememberCoroutineScope()
 
@@ -56,7 +51,7 @@ fun MainScreen(navController: NavController) {
             Drawer(scope = scope, scaffoldState = scaffoldState, navController = navController)
         }
     ) {
-
+        Text(text = text)
     }
 }
 
@@ -171,31 +166,19 @@ fun Drawer(scope: CoroutineScope, scaffoldState: ScaffoldState, navController: N
         val currentRoute = navBackStackEntry?.destination?.route
         var itemText = ""
 
-        items.forEachIndexed { index, item ->
-            if (item.title == NavRoute.DigitalMIEM.title) {
-                itemText = "Документация"
+        items.forEach { item ->
+            itemText = when(item.title) {
+                NavRoute.DigitalMIEM.title -> "Документация"
+                NavRoute.Administration.title -> "Подразделения"
+                NavRoute.ProjectOffice.title -> "Проекты"
+                NavRoute.CourseMaterials.title -> "Учеба"
+                NavRoute.StudentCouncilMIEM.title -> "Общественные организации"
+                NavRoute.PortfolioOfStudents.title -> "Люди"
+                NavRoute.Educational.title -> "Группы"
+                NavRoute.OperatingInstructions.title -> "Помощь по Wiki"
+                else -> ""
             }
-            if (item.title == NavRoute.Administration.title) {
-                itemText = "Подразделения"
-            }
-            if (item.title == NavRoute.ProjectOffice.title) {
-                itemText = "Проекты"
-            }
-            if (item.title == NavRoute.CourseMaterials.title) {
-                itemText = "Учеба"
-            }
-            if (item.title == NavRoute.StudentCouncilMIEM.title) {
-                itemText = "Общественные организации"
-            }
-            if (item.title == NavRoute.PortfolioOfStudents.title) {
-                itemText = "Люди"
-            }
-            if (item.title == NavRoute.Educational.title) {
-                itemText = "Группы"
-            }
-            if (item.title == NavRoute.OperatingInstructions.title) {
-                itemText = "Помощь по Wiki"
-            }
+
             if (item.title == NavRoute.DigitalMIEM.title ||
                 item.title == NavRoute.Administration.title ||
                 item.title == NavRoute.ProjectOffice.title ||
@@ -282,8 +265,8 @@ fun DrawerItem(item: NavRoute, selected: Boolean, onItemClick: (NavRoute) -> Uni
 
 @Preview(showBackground = true)
 @Composable
-fun prevMainScreen() {
+fun PrevCustomScreen() {
     MenuTheme {
-        MainScreen(navController = rememberNavController())
+        CustomScreen(navController = rememberNavController(), text = "text")
     }
 }
