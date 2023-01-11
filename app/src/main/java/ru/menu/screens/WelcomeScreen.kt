@@ -20,17 +20,19 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
+import ru.menu.*
 import ru.menu.R
 
 import ru.menu.navigation.NavRoute
 import ru.menu.ui.theme.MenuTheme
-
-val orange = Color(0xFFEC8D01)
-val yellow = Color(0xFFE4EC01)
+import ru.menu.ui.theme.orange
 
 @Composable
 fun WelcomeScreen(navController: NavController) {
     Scaffold(
+        topBar = {},
+        floatingActionButton = {},
+        drawerContent = {},
         modifier = Modifier.fillMaxSize()
     ) {
         Column(modifier = Modifier
@@ -91,19 +93,13 @@ fun WelcomeScreen(navController: NavController) {
                 Icon(
                     Icons.Default.ArrowForward,
                     contentDescription = "content description",
-                    tint = yellow,
+                    tint = Color.Black,
                     modifier = Modifier
                         .size(15.dp)
                 )
             }
         }
-    }
-}
 
-@Preview(showBackground = true)
-@Composable
-fun PrevWelcomeScreen() {
-    MenuTheme {
-        WelcomeScreen(navController = rememberNavController())
     }
+
 }

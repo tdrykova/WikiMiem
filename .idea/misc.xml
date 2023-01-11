@@ -21,6 +21,7 @@
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/file_document.xml" value="0.1" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/file_tree.xml" value="0.1" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/flask.xml" value="0.1" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/folder.xml" value="0.1185" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/group.xml" value="0.11" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_burger.xml" value="0.1" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/ic_chat.xml" value="0.11" />
@@ -33,10 +34,13 @@
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/labs.xml" value="0.11" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/library.xml" value="0.11" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/materials.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/navigation.xml" value="0.1185" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/network_outline.xml" value="0.1" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/newspaper.xml" value="0.1" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/office_building_outline.xml" value="0.11" />
         <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/school.xml" value="0.11" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/text_box.xml" value="0.1185" />
+        <entry key="..\:/Users/tatry/Desktop/android-projects/wiki/menu/app/src/main/res/drawable/text_box_outline.xml" value="0.1185" />
       </map>
     </option>
   </component>
