@@ -13,3 +13,9 @@ val darkBlue = Color(0xFF2F4256)
 val brightBlue = Color(0xFF1565C0)
 val backgroundBlue = Color(0xFF1976d2)
 val textGray = Color(0xFFCAC5C5)
+
+// comments
+val lightGray = Color(0xFFECEFF1)
+val middleGray = Color(0xFF607D8B)
+val darkGray = Color(0xFF455A64)
+
